@@ -1,7 +1,8 @@
-namespace HtmlGenerator.Nodes;
-using Attributes;
+using Attribute = HtmlGenerator.Components.Attributes.Attribute;
 
-public class Link : HtmlNode
+namespace HtmlGenerator.Components.Tag;
+
+public class Link : HtmlTag
 {
     public Link() : base("a"){}
     

@@ -1,6 +1,6 @@
-namespace HtmlGenerator.Nodes;
+namespace HtmlGenerator.Components.Tag;
 
-public static class Node
+public static class Tag
 {
     public static Paragraph Paragraph()
     {

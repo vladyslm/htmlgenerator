@@ -1,6 +1,6 @@
-namespace HtmlGenerator.HTMLBuilder;
+using HtmlGenerator.Components.Tag;
 
-using Nodes;
+namespace HtmlGenerator.HTMLBuilder;
 
 public interface IHtmlBuilder
 {

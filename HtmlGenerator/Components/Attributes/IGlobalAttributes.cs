@@ -1,4 +1,4 @@
-namespace HtmlGenerator.Attributes;
+namespace HtmlGenerator.Components.Attributes;
 
 public interface IGlobalAttributes
 {

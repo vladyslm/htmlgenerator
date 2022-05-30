@@ -1,12 +1,12 @@
-namespace HtmlGenerator.Nodes;
+namespace HtmlGenerator.Components.Tag;
 
-public class HtmlNode : IHtmlElement
+public class HtmlTag : IHtmlElement
 {
     private readonly List<string> _attributes = new List<string>();
     protected string Tag { get; private set; }
     protected string Content { get; private set; }
 
-    protected HtmlNode(string tag)
+    protected HtmlTag(string tag)
     {
         Tag = tag;
         Content = "";
@@ -31,13 +31,13 @@ public class HtmlNode : IHtmlElement
 
 public static class HtmlNodeExtension
 {
-    public static T ExtensionInnerHtml<T>(this T self, string content) where T : HtmlNode
+    public static T ExtensionInnerHtml<T>(this T self, string content) where T : HtmlTag
     {
         self.AddNodeContent(content);
         return self;
     }
 
-    public static T ExtensionAttribute<T>(this T self, string attribute) where T : HtmlNode
+    public static T ExtensionAttribute<T>(this T self, string attribute) where T : HtmlTag
     {
         self.Add(attribute);
         return self;

@@ -1,11 +1,11 @@
-using HtmlGenerator.Nodes;
+using HtmlGenerator.Components.Tag;
 
 namespace HtmlGenerator.Components;
 
 public class HtmlComponent : IHtmlElement
 {
     private readonly List<string> _attributes = new();
-    private readonly List<HtmlNode> _htmlNodes = new();
+    private readonly List<HtmlTag> _htmlNodes = new();
     protected string Tag { get; }
     
     protected HtmlComponent(string tag)
@@ -13,7 +13,7 @@ public class HtmlComponent : IHtmlElement
         Tag = tag;
     }
 
-    public void AddNode(params HtmlNode[] node)
+    public void AddNode(params HtmlTag[] node)
     {
         _htmlNodes.AddRange(node);
     }
@@ -40,7 +40,7 @@ public class HtmlComponent : IHtmlElement
 
 public static class HtmlComponentExtension
 {
-    public static T ExtensionAppendNode<T>(this T self, params HtmlNode[] nodes) where T : HtmlComponent
+    public static T ExtensionAppendNode<T>(this T self, params HtmlTag[] nodes) where T : HtmlComponent
     {
         self.AddNode(nodes);
         return self;

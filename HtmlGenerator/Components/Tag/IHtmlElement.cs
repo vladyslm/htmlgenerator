@@ -1,4 +1,4 @@
-namespace HtmlGenerator.Nodes;
+namespace HtmlGenerator.Components.Tag;
 
 public interface IHtmlElement
 {

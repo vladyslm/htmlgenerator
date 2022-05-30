@@ -1,7 +1,8 @@
-namespace HtmlGenerator.Nodes;
-using Attributes;
+using Attribute = HtmlGenerator.Components.Attributes.Attribute;
 
-public class Paragraph : HtmlNode
+namespace HtmlGenerator.Components.Tag;
+
+public class Paragraph : HtmlTag
 {
     public Paragraph() : base("p"){}
     
