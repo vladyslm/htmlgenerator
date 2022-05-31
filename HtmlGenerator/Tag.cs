@@ -13,4 +13,9 @@ public static class Tag
     {
         return new Link();
     }
+
+    public static Custom Custom(string tag, params string[] attributes)
+    {
+        return new Custom(tag, attributes);
+    }
 }
