@@ -29,7 +29,7 @@ public class HtmlBuilder : IHtmlBuilder
         return this;
     }
 
-    public IHtmlBuilder AddComponent(params IHtmlElement[] component)
+    public IHtmlBuilder AddBody(params IHtmlElement[] component)
     {
         _htmlElements.AddRange(component);
         return this;
