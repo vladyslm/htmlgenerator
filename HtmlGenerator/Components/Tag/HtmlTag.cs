@@ -2,9 +2,9 @@ namespace HtmlGenerator.Components.Tag;
 
 public class HtmlTag : IHtmlElement
 {
-    private readonly List<string> _attributes = new List<string>();
+    protected readonly List<string> _attributes = new List<string>();
     protected string Tag { get; private set; }
-    protected string Content { get; private set; }
+    protected string Content { get; set; }
 
     protected HtmlTag(string tag)
     {
