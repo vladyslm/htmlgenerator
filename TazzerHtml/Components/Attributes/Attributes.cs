@@ -3,7 +3,7 @@ namespace TazzerHtml.Components.Attributes;
 /// <summary>
 /// Represents HTML attributes.
 /// </summary>
-public static class Attribute
+public static class Attributes
 {
     /// <summary>
     /// Creates an HTML class attribute based on a passed value.

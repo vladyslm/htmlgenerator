@@ -1,5 +1,3 @@
-using Attribute = TazzerHtml.Components.Attributes.Attribute;
-
 namespace TazzerHtml.Components.Tag;
 
 /// <summary>This class represents HTML paragraph</summary>
@@ -22,12 +20,12 @@ public class Paragraph : HtmlTag
     /// </summary>
     /// <param name="class"></param>
     /// <returns></returns>
-    public Paragraph AddClass(params string[] @class) => this.ExtensionAttribute(Attributes.Attribute.Class(@class));
+    public Paragraph AddClass(params string[] @class) => this.ExtensionAttribute(Attributes.Attributes.Class(@class));
     
     /// <summary>
     /// Add id attribute to this HTML element.
     /// </summary>
     /// <param name="id"></param>
     /// <returns></returns>
-    public Paragraph AddId(string id) => this.ExtensionAttribute(Attributes.Attribute.Id(id));
+    public Paragraph AddId(string id) => this.ExtensionAttribute(Attributes.Attributes.Id(id));
 }

@@ -1,5 +1,4 @@
 using TazzerHtml.Components.Tag;
-using Attribute = TazzerHtml.Components.Attributes.Attribute;
 
 namespace TazzerHtml.Components;
 
@@ -28,12 +27,12 @@ public class Div : HtmlComponent
     /// </summary>
     /// <param name="class"></param>
     /// <returns></returns>
-    public Div AddClass(params string[] @class) => this.ExtensionAttribute(Attributes.Attribute.Class(@class));
+    public Div AddClass(params string[] @class) => this.ExtensionAttribute(Attributes.Attributes.Class(@class));
 
     /// <summary>
     /// Add id attribute to this HTML element.
     /// </summary>
     /// <param name="id"></param>
     /// <returns></returns>
-    public Div AddId(string id) => this.ExtensionAttribute(Attributes.Attribute.Id(id));
+    public Div AddId(string id) => this.ExtensionAttribute(Attributes.Attributes.Id(id));
 }
