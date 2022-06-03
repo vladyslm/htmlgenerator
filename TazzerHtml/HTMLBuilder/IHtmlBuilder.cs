@@ -1,6 +1,6 @@
-using HtmlGenerator.Components.Tag;
+using TazzerHtml.Components.Tag;
 
-namespace HtmlGenerator.HTMLBuilder;
+namespace TazzerHtml.HTMLBuilder;
 
 public interface IHtmlBuilder
 {

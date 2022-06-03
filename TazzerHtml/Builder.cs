@@ -1,7 +1,7 @@
-using HtmlGenerator.HTMLBuilder;
-using HtmlGenerator.HTMLBuilder.PageElements;
+using TazzerHtml.HTMLBuilder;
+using TazzerHtml.HTMLBuilder.PageElements;
 
-namespace HtmlGenerator;
+namespace TazzerHtml;
 
 public static class Builder
 {

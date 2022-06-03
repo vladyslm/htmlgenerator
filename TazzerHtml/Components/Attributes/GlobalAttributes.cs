@@ -1,4 +1,4 @@
-namespace HtmlGenerator.Components.Attributes;
+namespace TazzerHtml.Components.Attributes;
 
 public class GlobalAttributes : IGlobalAttributes
 {

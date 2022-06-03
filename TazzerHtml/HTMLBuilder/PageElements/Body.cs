@@ -1,5 +1,7 @@
-namespace HtmlGenerator.HTMLBuilder.PageElements;
-using HtmlGenerator.Components.Tag;
+using TazzerHtml.Components.Tag;
+
+namespace TazzerHtml.HTMLBuilder.PageElements;
+using TazzerHtml.Components.Tag;
 
 public class Body : IPageElement
 {

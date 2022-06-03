@@ -1,4 +1,4 @@
-namespace HtmlGenerator.Components.Tag;
+namespace TazzerHtml.Components.Tag;
 
 public class HtmlTag : IHtmlElement
 {

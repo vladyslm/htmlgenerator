@@ -1,4 +1,4 @@
-namespace HtmlGenerator.HTMLBuilder.PageElements;
+namespace TazzerHtml.HTMLBuilder.PageElements;
 
 public class Page : IPageElement
 {

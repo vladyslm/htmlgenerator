@@ -1,6 +1,6 @@
-using HtmlGenerator.Components.Tag;
+using TazzerHtml.Components.Tag;
 
-namespace HtmlGenerator.Components;
+namespace TazzerHtml.Components;
 
 public class HtmlComponent : IHtmlElement
 {

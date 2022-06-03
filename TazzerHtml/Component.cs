@@ -1,4 +1,6 @@
-namespace HtmlGenerator.Components;
+namespace TazzerHtml;
+
+using Components;
 
 public static class Component
 {

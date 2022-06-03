@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlGenerator", "HtmlGenerator\HtmlGenerator.csproj", "{089A6028-0CB3-478E-94FF-6D417E08D456}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TazzerHtml", "TazzerHtml\TazzerHtml.csproj", "{089A6028-0CB3-478E-94FF-6D417E08D456}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
